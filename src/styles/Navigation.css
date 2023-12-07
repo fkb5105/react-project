@@ -1,0 +1,60 @@
+/* Navigation.css */
+.navigation {
+    background-color: rgba(25, 143, 222, 0.7);
+    height: auto;
+    text-align: center;
+  } 
+.burger-icon {
+    display: none; /* Hide the burger icon by default */
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 10px;
+} 
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}  
+.nav-item {
+    margin: 0;
+    padding: 12px 3rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+} 
+.nav-item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.7rem;
+}
+.nav-item:hover {
+    background-color: rgba(25, 143, 222, 0.9);
+}
+.burger-icon{
+    display: none;
+}
+  
+  /* Responsive styles */
+@media screen and (max-width: 768px) {
+    .burger-icon {
+      display: block;
+      color: #ffffff; /* Display the burger icon on smaller screens */
+    }
+  
+    .nav-list {
+      display: none; /* Hide the menu by default on smaller screens */
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-list.open {
+      display: flex; /* Display the menu when it's open */
+    }
+  
+    .nav-item {
+      padding: 12px;
+      text-align: center;
+    }
+  }
+  
