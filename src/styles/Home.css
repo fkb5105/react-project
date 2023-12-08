@@ -1,0 +1,39 @@
+/* Home.css */
+body{
+    background-color: rgba(13, 104, 165, 0.9)
+}
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1080px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    text-align: center;
+    color: #fff;
+}
+.persona-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.persona-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.persona-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.home-container .titles {
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #FFFFFF;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
