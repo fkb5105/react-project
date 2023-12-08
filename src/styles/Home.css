@@ -13,18 +13,18 @@ body{
     text-align: center;
     color: #fff;
 }
-.persona-image {
+.profile-image {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
-.persona-name {
+.profile-name {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.persona-description {
+.profile-description {
   font-size: 1.2rem;
   line-height: 1.6;
 }

@@ -9,14 +9,14 @@ const Home = () => {
       <img
         src={profilePic}
         alt="Felipe Bassi"
-        className="persona-image"
+        className="profile-image"
       />
-      <h1 className="persona-name">Felipe Bassi</h1>
+      <h1 className="profile-name">Felipe Bassi</h1>
       <p className="titles">
         <span>Digital Media, Arts & Technology Student | </span>
         <span>Data Visualization Technician</span>
       </p>
-      <p className="persona-description">
+      <p className="profile-description">
         Welcome to my personal portfolio website! Lorem ipsum dolor sit amet,
         consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
