@@ -8,6 +8,7 @@ const Resume = () => {
 
   return (
     <div className="resume-container">
+      <h1>Felipe Bassi</h1>
       <section className="education">
         <h2>Education</h2>
         {Object.entries(education).map(([category, items]) => (

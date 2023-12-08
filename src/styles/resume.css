@@ -6,6 +6,9 @@
   background-color: #ffffff; 
   color: #333333; 
 }
+h1{
+    text-align: center;
+}
 section {
   margin-bottom: 20px;
 }
