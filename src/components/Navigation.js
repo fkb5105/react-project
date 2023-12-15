@@ -15,7 +15,7 @@ const Navigation = () => {
       <div className="burger-icon" onClick={toggleMenu}>&#9776;</div>
       <ul className={`nav-list ${isMenuOpen ? 'open' : ''}`}>
         <li className="nav-item">
-          <Link to="/pages/home">Home</Link>
+          <Link to="/react-project">Home</Link>
         </li>
         <li className="nav-item">
           <Link to="/pages/resume">Resume</Link>

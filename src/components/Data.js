@@ -1,4 +1,15 @@
-const resumeData = {
+import _digitWebsite from "../assets/digitWebsite.png"
+import _VarApp from "../assets/VARlabsApp.png"
+import _insuranceWebsite from "../assets/insuranceWebsite.png"
+
+
+const img = {
+  "digitWebsite": _digitWebsite,
+  "insuranceWebsite": _insuranceWebsite,
+  "VarLabsApp": _VarApp,
+};
+
+export const resumeData = {
 
   "education": {
     "University": ["The Pennsylvania State University"],
@@ -65,4 +76,26 @@ const resumeData = {
     "Other Skills": ["GitHub", "Adobe Photoshop", "Adobe Premier", "Adobe XD", "Adobe Illustrator"]
   }
 }
-export default resumeData;
+
+export const galleryData = {
+  "projects": [
+    {
+      "title":"VAR Labs Application",
+      "description":"During my time working for the VAR Labs at Penn State Behrend, I developed an App to celebrate the 75 years of the Behrend campus. The app include Augmented Reality features, slideshows of the Behrend family, and comparisons between the old and present campus.",
+      "link":"https://github.com/fkb5105/Behrend-Immersive-App",
+      "imageUrl": img["VarLabsApp"]
+    },
+    {
+      "title":"DIGIT Website",
+      "description":"As mentioned in my Resume, in the summer of 2022, with a team of other students I built the Digital Media, Arts & Technology program website.",
+      "link":"https://digit-psb.github.io/DIGIT/",
+      "imageUrl":img["digitWebsite"]
+    },
+    {
+      "title":"Insurance Website Redesign ",
+      "description":"On this project a classmate and I worked on redesigning the Erie insurance website by improving some of its accessibility features, and interactivity.",
+      "link":"https://fkb5105.github.io/InsuranceProject-DIGIT400/",
+      "imageUrl": img["insuranceWebsite"]
+    }
+  ]
+}

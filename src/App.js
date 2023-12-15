@@ -17,7 +17,7 @@ const App = () => {
             path="/"
             element={<Navigate to="/pages/home" />}
           />
-          <Route path="/pages/home" element={<Home />} />
+          <Route path="/react-project" element={<Home />} />
           <Route path="/pages/resume" element={<Resume />} />
           <Route path="/pages/gallery" element={<Gallery />} />
         </Routes>

@@ -1,7 +1,7 @@
 // Resume.js
 import React from 'react';
 import '../styles/resume.css';
-import resumeData from '../components/resumeData'
+import { resumeData } from '../components/Data';
 
 const Resume = () => {
   const { education, experience, projects, skills } = resumeData;
@@ -9,6 +9,14 @@ const Resume = () => {
   return (
     <div className="resume-container">
       <h1>Felipe Bassi</h1>
+      <section className='contact'>
+        <h2>Contact Info</h2>
+        <div>
+          <p><b>Email</b>: 20felipe.bassi@gmail.com</p>
+          <p><b>Phone</b>: +1 (814)812-5604</p>
+          <p><b>LinkedIn</b>: <a href='www.linkedin.com/in/felipe-bassi' target="_blank" rel="noopener noreferrer">www.linkedin.com/in/felipe-bassi</a></p>
+        </div>
+      </section>
       <section className="education">
         <h2>Education</h2>
         {Object.entries(education).map(([category, items]) => (
