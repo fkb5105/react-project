@@ -18,7 +18,7 @@ export const resumeData = {
     "Focus Area": ["Data Visualization and Assessment"],
     "Minors": ["Data Visualization", "Management Information Systems"],
     "Awards": ["PSU Honors Program Certificate | Dean’s List Fall 2020 – Spring 2023"],
-    "GPA": ["3.55"]
+    "GPA": ["3.60"]
   },
   "experience": [
     {
